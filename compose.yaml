@@ -1,0 +1,7 @@
+version: '3'
+services:
+  main:
+    build: .
+    runtime: nvidia
+    volumes: 
+      - ./src:/app
